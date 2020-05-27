@@ -226,7 +226,7 @@ x < 10
 x %in% 1:10
 ```
 
-We can use logical vectors to select data from a data frame.
+We can use logical vectors to select data from a data frame. This is often referred to as *logical indexing*. 
 
 ```{r logical_vectors_addressing}
 index <- dat$Group == 'Control'
